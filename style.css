@@ -11,3 +11,13 @@ h3 {
 #th-top {
   border-top: 5px solid #f92859;
 }
+
+#th-top2 {
+  border-top: 5px solid #1c87fb;
+}
+
+.debate {
+  line-height: 20px;
+  font-size: 12px;
+  border-top: 5px double rgb(201, 198, 198);
+}
