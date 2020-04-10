@@ -13,7 +13,7 @@ The original website of The Next Web [Link](https://neewsweek.com/)
 
 ## Live Demo
 
-[Live Demo Link](https://github.com/hillarioh/Newsweek.com-clone/newsweek/index.html)
+[Live Demo Link](https://raw.githack.com/hillarioh/Newsweek.com-clone/newsweek/index.html)
 
 ## Getting Started
 
