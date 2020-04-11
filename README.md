@@ -2,7 +2,7 @@
 
 > A clone of famous newsweek website to practice and complete assignment at microverse as a solo project. I created a fully resposive website using bootstrap, Css and Html.
 
-The original website of The Next Web [Link](https://neewsweek.com/)
+The original website of Newsweek [Link](https://neewsweek.com/)
 
 ![screenshot](./Images/screenshot.png)
 
@@ -47,10 +47,6 @@ Feel free to check the [issues page](https://github.com/hillarioh/Newsweek.com-c
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-- Content inspired by the original youtube page.
 
 ## 📝 License
 
