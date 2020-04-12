@@ -11,6 +11,10 @@
       href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
     <link href="style.css" rel="stylesheet" />
     <title>Newsweek.com</title>
   </head>
@@ -1873,45 +1877,52 @@
       </div>
       <div class="subscribe">
         <div class="row">
-          <div class="col-sm-8">
+          <div
+            class="col-lg-8"
+            style="box-sizing: border-box; padding-right: -5px;"
+          >
             <h4>Subscribe</h4>
-            <div>
-              <div>
+            <div class="row sub1 p-4">
+              <div class="d-flex col-md-4 pl-3 sub2 position-relative">
                 <img
-                  class="lazyloaded"
+                  class="lazyloaded position-absolute"
                   src="https://d.newsweek.com/en/full/1577760/cover-april-10-2020.jpg"
-                  width="397"
-                  height="265"
+                  width="170"
+                  height="220"
                 />
                 <img
-                  class="lazyloaded"
+                  class="lazyloaded ml-5 mt-3"
                   src="https://d.newsweek.com/en/full/1579878/april-17-24-2020-cover.jpg"
-                  width="397"
-                  height="265"
+                  style="z-index: 1;"
+                  width="170"
+                  height="220"
                 />
               </div>
-              <div>
-                <h3>
+              <div class="col-md-8 d-flex flex-column px-0 pt-5">
+                <h3 class="">
                   In-depth Stories You Don't See Elsewhere About Topics You Want
                   to Read!
                 </h3>
                 <p>
-                  All Access + Weekly Delivery. Choose A Membership That's
-                  Perfect for You!
+                  All Access + Weekly Delivery.<br />
+                  Choose A Membership That's Perfect for You!
                 </p>
-                <h2>SUBSCRIBE ></h2>
+                <h3 class="sup p-2">SUBSCRIBE ></h3>
               </div>
             </div>
           </div>
-          <div class="col-sm-4">
+          <div class="col-lg-4">
             <h4>Newsletter</h4>
-            <div class="d-flex border border-dark" style="height: 265px;">
-              <img
-                class="lazyloaded newsl"
-                src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png"
-                height="265"
-              />
-              <div class="p-4">
+            <div class="row">
+              <div class="col-md-6 px-0">
+                <img
+                  class="lazyloaded"
+                  src="https://d.newsweek.com/en/full/1541302/starting5-homepage.png"
+                  height="270"
+                  style="width: 100%;"
+                />
+              </div>
+              <div class="col-md-6 p-4 border border-dark">
                 <h2>
                   The Starting 5
                 </h2>
@@ -1922,6 +1933,59 @@
                 <h3 class="sup p-2">SIGN UP ></h3>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer mt-4">
+        <div class="inner-footer">
+          <div class="d-flex align-items-end">
+            <h3 class="icon1 d-inline">Newsweek</h3>
+            <p class="copyright d-inline mb-0">© 2020 Newsweek</p>
+            <ul
+              class="d-inline-flex mb-0"
+              style="position: absolute; right: 0;"
+            >
+              <li class="list-group-item border-0 pb-0">
+                <a href="#"
+                  ><i
+                    class="fab fa-facebook-square"
+                    style="font-size: 24px; color: #888;"
+                  ></i
+                ></a>
+              </li>
+              <li class="list-group-item border-0 pb-0">
+                <a href="#"
+                  ><i
+                    class="fab fa-twitter"
+                    style="font-size: 24px; color: #888;"
+                  ></i
+                ></a>
+              </li>
+              <li class="list-group-item border-0 pd-0">
+                <a href="#"
+                  ><i
+                    class="fab fa-instagram"
+                    style="font-size: 24px; color: #888;"
+                  ></i
+                ></a>
+              </li>
+              <li class="list-group-item border-0 pb-0">
+                <a href="#"
+                  ><i
+                    class="fab fa-tumblr"
+                    style="font-size: 24px; color: #888;"
+                  ></i
+                ></a>
+              </li>
+              <li class="list-group-item border-0 pb-0">
+                <a href="#"
+                  ><i
+                    class="fab fa-linkedin-in"
+                    style="font-size: 24px; color: #888;"
+                  ></i
+                ></a>
+              </li>
+            </ul>
           </div>
         </div>
       </div>
