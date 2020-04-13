@@ -70,6 +70,19 @@ body {
   font-weight: 600;
 }
 
+.cover {
+  background: #f72210;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+
+.biz {
+  color: #f72210;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+
 img {
   max-width: 100%;
 }
@@ -102,7 +115,6 @@ nav {
 
 .sub1 {
   background: #f4f5f6;
-  margin-right: 1px;
 }
 
 h2 {
