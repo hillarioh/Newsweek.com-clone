@@ -4,12 +4,12 @@
 
 The original website of Newsweek [Link](https://neewsweek.com/)
 
-![screenshot](./Images/screenshot.png)
+![screenshot](./newsweek.png)
 
 ## Built With
 
 - HTML 5 and CSS 3.
-- Bootsrap
+- Bootstrap
 
 ## Live Demo
 
