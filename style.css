@@ -60,6 +60,19 @@ h2 {
   margin-right: 10px;
 }
 
+.content {
+  background: #f72210;
+  color: white;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.title-logo {
+  font-size: 5rem;
+  font-weight: 900;
+  letter-spacing: -7px;
+  line-height: 4rem;
+}
+
 .icon1 {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 4rem;
