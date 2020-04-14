@@ -5,6 +5,14 @@ body {
   background: #f4f5f6;
 }
 
+nav {
+  z-index: 2;
+}
+
+backy {
+  background: #f72210;
+}
+
 .design {
   position: absolute;
   top: 0;
@@ -61,6 +69,7 @@ body {
   color: #f72210;
   font-size: 17px;
   font-weight: 600;
+  z-index: 1;
 }
 
 .section-minithumb {
@@ -186,6 +195,6 @@ h2 {
   color: #666;
 }
 
-.footer {
+.endly {
   border-top: 1px solid #d9d9d9;
 }
