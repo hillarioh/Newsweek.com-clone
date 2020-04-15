@@ -68,6 +68,10 @@ input {
   cursor: pointer;
 }
 
+.mgimg {
+  height: 311px;
+}
+
 .section-subtitle:hover {
   text-decoration: underline;
   text-decoration-color: #f72210;
@@ -305,6 +309,12 @@ h2 {
   background-color: #f4f5f6;
 }
 
+@media (min-width: 992px) and (max-width: 1199px) {
+  .mgimg {
+    height: 200px;
+  }
+}
+
 @media (min-width: 768px) and (max-width: 991px) {
   .opinion img {
     width: 70px;
@@ -324,6 +334,10 @@ h2 {
     align-items: center;
     margin: 2px auto;
   }
+
+  .mgimg {
+    height: 200px;
+  }
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
@@ -338,6 +352,10 @@ h2 {
 
   .latest .d-flex img {
     width: 100px;
+  }
+
+  .mgimg {
+    height: 200px;
   }
 
   .uss {
