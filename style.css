@@ -212,6 +212,7 @@ img {
   background-color: #f72210;
   color: white;
   max-width: fit-content;
+  margin: 0 auto;
 }
 
 .sub1 {
@@ -303,4 +304,78 @@ h2 {
 
 .bg-light-gray2 {
   background-color: #f4f5f6;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .opinion img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .dbb {
+    width: 100px;
+  }
+
+  .latest .d-flex img {
+    width: 100px;
+  }
+
+  .latest .feature1 {
+    width: 50%;
+    align-items: center;
+    margin: 2px auto;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .opinion img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .dbb {
+    width: 100px;
+  }
+
+  .latest .d-flex img {
+    width: 100px;
+  }
+
+  .uss {
+    width: 100px;
+  }
+
+  .subed {
+    /* margin: 2px auto; */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .stata {
+    text-align: center;
+  }
+}
+
+@media (max-width: 575px) {
+  .subed {
+    /* margin: 2px auto; */
+    justify-content: center;
+    text-align: center;
+  }
+
+  .stata {
+    text-align: center;
+  }
+
+  .snvg {
+    width: 150px;
+  }
+
+  .outro {
+    font-size: 15px;
+  }
+
+  .logot {
+    display: hidden;
+  }
 }
