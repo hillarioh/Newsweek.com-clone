@@ -153,7 +153,6 @@ input {
 }
 
 .section-milithumb {
-  /* font-family: "Roboto Condensed", sans-serif; */
   font-size: 13px;
   background: #c2d4d7;
   cursor: pointer;
@@ -346,7 +345,6 @@ h2 {
   }
 
   .subed {
-    /* margin: 2px auto; */
     justify-content: center;
     text-align: center;
   }
@@ -358,7 +356,6 @@ h2 {
 
 @media (max-width: 575px) {
   .subed {
-    /* margin: 2px auto; */
     justify-content: center;
     text-align: center;
   }
