@@ -14,6 +14,18 @@ nav {
   background: #f72210;
 }
 
+.backy1 {
+  color: #f72210;
+}
+
+.backy2 {
+  color: #666;
+}
+
+input {
+  width: 60px;
+}
+
 .mbl {
   font-family: "Roboto Condensed", sans-serif;
   font-size: 20px;
@@ -66,6 +78,18 @@ nav {
   font-size: 22px;
   font-weight: 600;
   cursor: pointer;
+}
+
+.section-minititle2 {
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.lnfl {
+  line-height: 8px;
+  flex-wrap: wrap;
 }
 
 .section-minititle:hover {
@@ -257,4 +281,26 @@ h2 {
 
 .endly {
   border-top: 1px solid #d9d9d9;
+}
+
+.endy2 {
+  border-right: none;
+}
+
+.ft-fn {
+  font-size: 24px;
+  color: #888;
+}
+
+.ft-fn1 {
+  font-size: 14px;
+  color: #666;
+}
+
+.bg-light-gray {
+  background-color: #c2d4d7;
+}
+
+.bg-light-gray2 {
+  background-color: #f4f5f6;
 }
